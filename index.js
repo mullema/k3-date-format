@@ -57,7 +57,8 @@ panel.plugin('mullema/k3-date-format', {
             methods: {
                 date: function() {
                     const date = dayjs(this.value);
-                    return date.isValid() ? date.format("DD.MM.YYYY") : "";
+                    const format = this.field.time === true ? "DD.MM.YYYY HH:mm" : "DD.MM.YYYY";
+                    return date.isValid() ? date.format(format) : "no?";
                 }
             },
             template: `<p class="k-date-field-preview">{{ date() }}</p>`
