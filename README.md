@@ -12,5 +12,19 @@ Tested with *Kirby 3.0*
 
 ![StructureField](https://discourse-cdn-sjc2.com/standard17/uploads/getkirby/original/2X/b/b41e1604c7279e313a7354a67646dd300503cd53.png)
 
-## Install
-Download zip file and copy the folder into the ```site/plugins``` folder
+## Installation
+#### Download
+
+Download and copy this repository to `/site/plugins/k3-date-format`
+
+#### Git submodule
+
+```
+git submodule add https://github.com/mullema/k3-date-format.git site/plugins/k3-date-format
+```
+
+#### Composer
+
+```
+composer require mullema/k3-date-format
+```
