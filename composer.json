@@ -2,6 +2,7 @@
   "name": "mullema/k3-date-format",
   "description": "Example for date format change in the date field and it's structure field preview.",
   "type": "kirby-plugin",
+  "version": "1.0.2",
   "license": "MIT",
   "authors": [
     {
